@@ -68,7 +68,7 @@
         protocols = options;
       }
 
-      this.protocols = protocols || 'Sec-WebSocket-Protocol';
+      this.protocols = protocols || '';
       this.url = url || 'Missing URL';
       this.ssl = /(wss)/i.test(this.url);
 
